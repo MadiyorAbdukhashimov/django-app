@@ -8,7 +8,7 @@ class ContactForm(forms.Form):
     email = forms.EmailField(
         widget=forms.EmailInput(
             attrs={
-                "class": "form-control",
+                "class": "form-control mb-5 mt-2",
                 "placeholder": "Your email",
                 "name": "email"
             }
@@ -17,7 +17,7 @@ class ContactForm(forms.Form):
     text = forms.CharField(
         widget=forms.Textarea(
             attrs={
-                "class": "form-control",
+                "class": "form-control mb-5",
                 "placeholder": "Your Idea ... ",
                 "rows": 3,
                 "name": "text"
