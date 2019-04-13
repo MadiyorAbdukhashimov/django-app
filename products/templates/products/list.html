@@ -7,10 +7,6 @@
 <link rel="stylesheet" href="{% static 'css/style.css' %}">
 {% endblock css %}
 
-{% block css2 %}
-<link rel="stylesheet" href="{% static 'css/min.css' %}">
-{% endblock css2 %}
-
 {% block content %}
 <div class="container">
     <div class="row">
@@ -28,8 +24,5 @@
         </div>
         {% endfor %}
     </div>
-    {% block script %}
-    <script src="{% static 'js/js.js' %}"></script>
-    {% endblock script %}
 </div>
 {% endblock content %}
